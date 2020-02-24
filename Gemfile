@@ -24,6 +24,10 @@ gem "will_paginate", "3.1.6"
 gem "gravatar_image_tag", "1.2.0"
 gem "mini_magick", "4.9.2"
 gem "bootsnap", "1.3.2", require: false
+gem "capistrano", "~> 3.11"
+gem "capistrano-rails", "~> 1.4"
+gem "capistrano-passenger", "~> 0.2.0"
+gem "capistrano-rbenv", "~> 2.1", ">= 2.1.4"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
